@@ -16,7 +16,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchQuotes();
-  }, [page]);
+  }, [page, fetchQuotes]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 to-cyan-50 dark:from-indigo-900 dark:to-purple-900 p-4 sm:p-6 lg:p-8">
